@@ -1,0 +1,57 @@
+.root {
+    -fx-background-color: #f4f4f4;
+}
+
+.text-field {
+    -fx-background-color: #111827;
+    -fx-text-fill: white;
+}
+
+.button {
+    -fx-background-color: white;
+    -fx-border-color: #dcdcdc;
+
+    -fx-background-radius: 12;
+    -fx-border-radius: 12;
+
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+
+    -fx-cursor: hand;
+    
+}
+
+.button:hover {
+    -fx-background-color: #eeeeee;
+}
+
+.number-button {
+    -fx-background-color: white;
+}
+
+.operator-button {
+    -fx-background-color: #ff9500;
+    -fx-text-fill: white;
+}
+
+.operator-button:hover {
+    -fx-background-color: #e68600;
+}
+
+.equal-button {
+    -fx-background-color: #34c759;
+    -fx-text-fill: white;
+}
+
+.equal-button:hover {
+    -fx-background-color: #28a745;
+}
+
+.clear-button {
+    -fx-background-color: #ff3b30;
+    -fx-text-fill: white;
+}
+
+.clear-button:hover {
+    -fx-background-color: #e02d22;
+}
